@@ -1,0 +1,60 @@
+{ "categories": [
+    {
+      "name": "News",
+      "threads": [
+        {
+          "name": "do aliens exist?",
+          "posts": [
+            "yeah",
+            "no"
+          ]
+        },
+        {
+          "name": "weather",
+          "posts": [
+            "its rainy",
+            "its sunny"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shower Thoughts",
+      "threads": [
+        {
+          "name": "do aliens exist?",
+          "posts": [
+            "yeah",
+            "no"
+          ]
+        },
+        {
+          "name": "weather",
+          "posts": [
+            "its rainy",
+            "its sunny"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Movies",
+      "threads": [
+        {
+          "name": "do aliens exist?",
+          "posts": [
+            "yeah",
+            "no"
+          ]
+        },
+        {
+          "name": "weather",
+          "posts": [
+            "its rainy",
+            "its sunny"
+          ]
+        }
+      ]
+    }
+  ]
+}
