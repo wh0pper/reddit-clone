@@ -13,12 +13,20 @@ export class CategoryService {
     return this.categories;
   }
 
+  getThreads(categoryId) {
+    return this.database.list('categories/' + categoryId);
+  }
+
   getCategoryById(categoryId: string) {
     return this.database.object('categories/' + categoryId);
   }
 
   addCategory(name) {
     this.categories.push(name);
+  }
+
+  getThreadById(categoryId: string, threadId: string) {
+    return this.database.object('categories/' + categoryId + '/threads/' + threadId);
   }
 
 }

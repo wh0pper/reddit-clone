@@ -1,6 +1,6 @@
 
 {{categoryToDisplay?.name}}
-<div class="well" *ngFor='let thread of categoryToDisplay?.threads'>
+<div class="well" *ngFor='let thread of threads'>
   <h3 (click)="goToThreadPage(thread)">{{thread.name}}</h3>
   <!-- <p *ngFor='let post of thread.posts'>
     {{post}}
